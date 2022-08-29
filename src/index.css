@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-black bg-white flex justify-center items-center;
+}
+
+* {
+  @apply font-[poppins] text-[18px];
+}
+
+.keypad {
+  grid-auto-rows: minmax(60px, auto);
+}
